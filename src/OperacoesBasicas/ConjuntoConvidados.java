@@ -11,7 +11,7 @@ public class ConjuntoConvidados {
         this.convidadoSet = new HashSet<>();
     }
 
-    public void adicionarConvidado(String nome, int codigoConvite) {
+    public void adicionarConvidado(String nome, int codigoConvite){
         convidadoSet.add(new Convidado(nome, codigoConvite));
     }
 
